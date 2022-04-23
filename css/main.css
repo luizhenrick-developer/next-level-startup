@@ -101,13 +101,13 @@ nav li > a:hover {
     color: rgb(var(--color-menu-hover));
 }
 
-nav li > a:active {
-    color: rgb()
+nav li > a:checked {
+    color: rgb(var(--color-menu-hover))
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
 }
 
 section#Home >  aside  > div.redes-sociais {
@@ -125,6 +125,7 @@ section#Home >  aside  > div.redes-sociais > div#parte-1 > h2 {
     font-weight: normal; 
     color: white;
     margin: auto;
+    margin-top: -30%;
     margin-bottom: 30px;
     max-width: 500px;
 }
@@ -176,6 +177,7 @@ section#Home > aside > div.redes-sociais > div#parte-2 > img#tablet {
 section#Home > aside > div.redes-sociais > div#parte-2 > img#celular {
     position: relative;
     left: -50%;
+    margin-bottom: -20%;
 }
 
 footer {

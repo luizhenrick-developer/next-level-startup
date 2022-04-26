@@ -154,12 +154,12 @@ section#Home >  aside  > div.redes-sociais > div#parte-2 {
     margin: auto;
 }
 
-section#Home > aside > div.redes-sociais > div#parte-2 > picture > img#tablet {
+section#Home > aside > div.redes-sociais > div#parte-2 > picture#tablet{
     position: relative;
     left: 25%;
 }
 
-section#Home > aside > div.redes-sociais > div#parte-2 > picture > img#celular {
+section#Home > aside > div.redes-sociais > div#parte-2 > picture#celular {
     position: relative;
     left: -50%;
     margin-bottom: -20%;
